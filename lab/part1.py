@@ -10,5 +10,4 @@ def encode(x):
 	return x * 3953531
 
 def decode(coded_message):
-	print(coded_message / 3953531)
-decode(encode("hi"))
+	print(coded_message[0:int(len(coded_message) / 3953531)])

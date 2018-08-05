@@ -1,1 +1,6 @@
-# Write your solution for 1.3 here!
+answer = 1
+i = 2
+while answer < 1000:
+    answer += i
+    i += 2
+print(i)
